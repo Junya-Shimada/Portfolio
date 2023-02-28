@@ -1,0 +1,161 @@
+
+.navigation{
+    position: fixed;
+    top: 10%;
+    right: 5%;
+    display:flex;
+    flex-direction: column;
+    z-index: 3;
+}
+
+.flow-btn{
+    margin: 20% 0;
+    position:relative;
+    display:inline-block;
+    width:50px;
+    height:50px;
+    font-size:30px;
+    border-radius:50%;
+    text-decoration:none;
+    transition:.5s;
+}
+
+.flow-btn i{
+    position:absolute;
+    top:50%;
+    left:50%;
+    -ms-transform:translate(-50%,-50%);
+    -webkit-transform:translate(-50%,-50%);
+    transform:translate(-50%,-50%);
+}
+
+
+
+
+/* Change Language */
+.language-btn {
+    margin-bottom: 250%;            /* language button と SNS button の間はスペースを開ける */
+    border:solid 2px #ff8844;
+    color: #ff8844;
+    background-color: #ffffff;
+}
+/* Languageマウスホバー時 */
+.language-btn:hover{
+    color: #ffffff;
+    border:solid 2px #ff8844;
+    background:#ff8844;
+}
+
+/* GitHub */
+.github-btn {
+    border:solid 2px #171515;
+    color: #171515;
+    background-color: #ffffff;
+}
+/* GitHubマウスホバー時 */
+.github-btn:hover{
+    color: #ffffff;
+    border:solid 2px #171515;
+    background:#171515;
+    font-size:35px;
+}
+
+/* Twitter */
+.twitter-btn {
+    border:solid 2px #00acee;
+    color:#00acee;
+    background-color: #ffffff;
+}
+/* Instagramマウスホバー時 */
+.twitter-btn:hover{
+    color: #ffffff;
+    background:#00acee;
+    border:solid 2px #00acee;
+    font-size:35px;
+}
+
+/* Instagram */
+.instagram-btn {
+    border:solid 2px #c6529a;
+    color:#c6529a;
+    background-color: #ffeedd;
+}
+/* Instagramマウスホバー時 */
+.instagram-btn:hover{
+    color: #ffeedd;
+    background:#c6529a;
+    border:solid 2px #ffeedd;
+    font-size:35px;
+}
+
+/* Top */
+.top-btn {
+    margin-top: 400%;
+    border:solid 2px #628199;
+    color:#ffffff;
+    background-color: #628199;
+}
+/* Topマウスホバー時 */
+.top-btn:hover{
+    color: #628199;
+    background:#ffffff;
+    border:solid 2px #517088;
+    font-size:35px;
+}
+
+
+
+/* For smart phone */
+@media (max-width: 600px) {
+
+    .navigation{
+        position: fixed;
+        top: 7.5%;
+        right: 5%;
+        display:flex;
+        flex-direction: column;
+        z-index: 3;
+    }
+    
+    .flow-btn{
+        margin: 10% 0;
+        position:relative;
+        display:inline-block;
+        width:50px;
+        height:50px;
+        font-size:30px;
+        border-radius:50%;
+        text-decoration:none;
+        transition:.5s;
+    }
+
+    .language-btn {
+        margin-bottom: 1000%;            /* language button と SNS button の間はスペースを開ける */
+        border:solid 2px #ff8844;
+        color: #ff8844;
+        background-color: #ffeedd;
+    }
+
+    .top-btn {
+        margin-top: 10%;
+        border:solid 2px #ffeedd;
+        color:#ffeedd;
+        background-color: #628199;
+    }
+
+    /* #instagram-btn{
+        margin: 0 5%;
+        width: 100px;
+        position: relative;
+        top: auto;
+        left: auto;
+    }
+    
+    #github-btn{
+        margin: 0 5%;
+        width: 100px;
+        position: relative;
+        top: auto;
+        left: auto;
+    } */
+}
