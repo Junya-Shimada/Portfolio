@@ -5,10 +5,10 @@ import { Home, Blog } from "./components/index";
 
 const App = () => {
   return (
-    <BrowserRouter basename='yakuzen'>
+    <BrowserRouter>
       <Routes>
-        <Route path={`/`} element={<Home />} />
-        <Route path={`/blog`} element={<Blog />} />
+        <Route path={`${process.env.PUBLIC_URL}/`} element={<Home />} />
+        <Route path={`${process.env.PUBLIC_URL}/blog`} element={<Blog />} />
       </Routes>
     </BrowserRouter>
   );
