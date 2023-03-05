@@ -22,7 +22,7 @@
     "git": "git add . && git commit && git push origin master",
     "deploy": "npm run build && gh-pages -d build"
   },
-  "homepage": "https://yakuzen.github.io/portfolio/",
+  "homepage": "https://yakuzen.github.io/portfolio/./",
   "eslintConfig": {
     "extends": [
       "react-app",

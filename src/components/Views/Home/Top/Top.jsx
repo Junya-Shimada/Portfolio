@@ -6,9 +6,6 @@ const Top = () => {
     return(
         <div className={`${styles["top"]}`}>
 
-            {/* タイトル */}
-            <h1 id="title-ja" className={`${styles["title"]}`}>ぽ〜とふぉりお</h1>
-
             <div className={`${styles["table"]}`}>
                 <h2 className={`${styles["section-title"]}`}>【 目次 】</h2>
                 <nav className={`${styles["ads"]}`}>

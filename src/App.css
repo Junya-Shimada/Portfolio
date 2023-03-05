@@ -8,10 +8,6 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* background: radial-gradient(
-        rgb(83, 192, 255), 
-        rgb(13, 122, 165)
-    );  */
 }
 
 h1{
@@ -29,4 +25,8 @@ h2{
 a{
     color: #ffeedd;
     text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
 }

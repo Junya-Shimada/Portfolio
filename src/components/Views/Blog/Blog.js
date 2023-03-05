@@ -1,12 +1,14 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Navigation, Header, PageTitle, LatestArticle } from "../../index";
 import styles from "./Blog.module.css";
 
-const Blog = () => {
+const Blog = () => { 
   return (
     <div className={`${styles["blog"]}`}>
-      <h1>Blog</h1>
-      <Link to='/'>Home</Link>
+      <Header />
+      <PageTitle title={'Blog'} />
+      <LatestArticle />
+      <Navigation />
     </div>
   );
 }

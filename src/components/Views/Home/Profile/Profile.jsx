@@ -7,7 +7,7 @@ const Profile = () => {
         <div id="profile-ja" className={`${styles["profile"]}`}>
             <div className={`${styles["profile-left"]}`}>
                 {/* プロフィール写真 */}
-                <img className={`${styles["profile-img"]}`} src={`${process.env.PUBLIC_URL}/profile.jpg`} />
+                <img className={`${styles["profile-img"]}`} src={`${process.env.PUBLIC_URL}/profile.jpg`} alt="プロフィール画像" />
                 <p className={`${styles["profile-img-description"]}`}>写真は出雲大社。（日本酒が好き）</p>
             </div>
 

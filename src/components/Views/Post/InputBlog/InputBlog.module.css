@@ -1,0 +1,33 @@
+.input-blog{
+    margin: 0 15%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-content{
+    margin: 7.5vh 0; /* 要素の下にも余白を入れている（後で消すかも） */
+    padding: 5vh 2.5%;
+    width: 100%;
+    min-height: 35vh;
+    font-size: 22px;
+    background-color: #ffeedd;
+}
+
+.post-content{
+    width: 8vw;
+    height: 4vw;
+    font-size: 24px;
+    background: radial-gradient(
+        rgb(255, 213, 0), 
+        rgb(255, 150, 0)
+    ); 
+}
+.post-content:hover{
+    background: radial-gradient(
+        rgb(245, 200, 50), 
+        rgb(255, 125, 50)
+    ); 
+}

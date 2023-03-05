@@ -1,0 +1,7 @@
+.latest{
+    margin: 7.5vh 15%; /* 要素の下にも余白を入れている（後で消すかも） */
+    padding: 5vh 2.5%;
+    width: 65%;
+    font-size: 22px;
+    background-color: #ffeedd;
+}

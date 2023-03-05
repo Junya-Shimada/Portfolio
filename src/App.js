@@ -1,14 +1,15 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
-import { Home, Blog } from "./components/index";
+import { Home, Blog, Post } from "./components/index";
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
-        <Route path={`${process.env.PUBLIC_URL}/`} element={<Home />} />
-        <Route path={`${process.env.PUBLIC_URL}/blog`} element={<Blog />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/blog" element={<Blog />} />
+        <Route path="/post" element={<Post />} />
       </Routes>
     </BrowserRouter>
   );
