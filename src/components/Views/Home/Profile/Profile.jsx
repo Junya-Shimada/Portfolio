@@ -6,7 +6,6 @@ const Profile = () => {
         // 自己紹介
         <div id="profile-ja" className={`${styles["profile"]}`}>
             <div className={`${styles["profile-left"]}`}>
-                {/* プロフィール写真 */}
                 <img className={`${styles["profile-img"]}`} src={`${process.env.PUBLIC_URL}/profile.jpg`} alt="プロフィール画像" />
                 <p className={`${styles["profile-img-description"]}`}>写真は出雲大社。（日本酒が好き）</p>
             </div>
@@ -15,7 +14,7 @@ const Profile = () => {
                 {/* 自己紹介文 */}
                 <div className={`${styles["introduce-ja"]} ${styles["introduce"]}`}>
                     <p>
-                        <span>やくぜん。</span><br /><br />
+                        <span>Junya Shimada</span><br /><br />
                         
                         2000年生まれの大学生。<br />
 
