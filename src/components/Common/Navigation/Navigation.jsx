@@ -5,9 +5,9 @@ const Navigation = () => {
     return(
         <div className={styles["navigation"]}>
 
-            {/* 表示言語 */}
-            <a className={`${styles["flow-btn"]} ${styles["language-btn"]}`} href="./english.html"><i class="fas fa-language"></i></a>
-            
+            {/* Mail */}
+            <a className={`${styles["flow-btn"]} ${styles["mail-btn"]}`} href="mailto:yakuzen555@gmail.com"><i class="fas fa-envelope"></i></a>
+        
             {/* GitHub */}
             <a className={`${styles["flow-btn"]} ${styles["github-btn"]}`} href="https://github.com/Yakuzen/Yakuzen"><i class="fab fa-github"></i></a>
             

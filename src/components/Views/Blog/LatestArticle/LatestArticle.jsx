@@ -1,11 +1,13 @@
-import React, { useState } from "react";
+import React from "react";
 import styles from "./LatestArticle.module.css";
 
 const LatestArticle = () => { 
   return (
-    <div className={`${styles["latest"]}`}>
-      <p>ここに記事を入れる</p>
-    </div>
+    <article className={`${styles["latest"]}`}>
+      
+      <p>まだ記事がありません。</p>
+    
+    </article>
   );
 }
 

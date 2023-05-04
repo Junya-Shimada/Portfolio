@@ -13,7 +13,7 @@ const Products = () => {
                 いずれも制作途中ではありますが、フィードバック等いただけると幸いです。
             </p>
             <div className={`${styles["grid"]}`}>
-                <a href="https://Yakuzen.github.io/asanpo-diary/" className={`${styles["tile"]}`}>
+                <a href="https://sen-bero.github.io/asanpo-diary/" className={`${styles["tile"]}`}>
                     <h3 className={`${styles["tile-title"]}`}>あさんぽ日記</h3>
                     <div>
                         <p>眠い目擦る。</p>
@@ -22,7 +22,7 @@ const Products = () => {
                         <p>心に少し余裕が生まれる。</p>
                     </div>
                 </a>
-                <a href="https://Yakuzen.github.io/cocktail-book/" className={`${styles["tile"]}`}>
+                <a href="https://sen-bero.github.io/cocktail-book/" className={`${styles["tile"]}`}>
                     <h3 className={`${styles["tile-title"]}`}>カクテルブック</h3>
                     <div>
                         <p>大人になる。</p>
@@ -31,7 +31,7 @@ const Products = () => {
                         <p>苦手なあなたにも選択肢を。</p>
                     </div>
                 </a>
-                <a href="https://Yakuzen.github.io/color-proposal/" className={`${styles["tile"]}`}>
+                <a href="https://sen-bero.github.io/color-proposal/" className={`${styles["tile"]}`}>
                     <h3 className={`${styles["tile-title"]}`}>カラープロポーサル</h3>
                     <div>
                         <p>カラーコード。</p>
@@ -40,7 +40,7 @@ const Products = () => {
                         <p>アイディアの一助にどうぞ。</p>
                     </div>
                 </a>
-                <a href="https://Yakuzen.github.io/secretary/" className={`${styles["tile"]}`}>
+                <a href="https://sen-bero.github.io/secretary/" className={`${styles["tile"]}`}>
                     <h3 className={`${styles["tile-title"]}`}>秘書サービス</h3>
                     <div class="tile-description">
                         <p>秘書犬シリウス。</p>

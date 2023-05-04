@@ -2,7 +2,7 @@
 .navigation{
     position: fixed;
     top: 17.5%;
-    right: 5%;
+    right: 3%;
     display:flex;
     flex-direction: column;
     z-index: 3;
@@ -32,18 +32,18 @@
 
 
 
-/* Change Language */
-.language-btn {
-    margin-bottom: 250%;            /* language button と SNS button の間はスペースを開ける */
-    border:solid 2px #ff8844;
-    color: #ff8844;
+/* Mail */
+.mail-btn {
+    margin-bottom: 250%;            /* Mail button と SNS button の間はスペースを開ける */
+    border:solid 2px #ff9900;
+    color: #ff9900;
     background-color: #ffffff;
 }
-/* Languageマウスホバー時 */
-.language-btn:hover{
+/* Hovered on Mail */
+.mail-btn:hover{
     color: #ffffff;
-    border:solid 2px #ff8844;
-    background:#ff8844;
+    border:solid 2px #ff9900;
+    background:#ff9900;
 }
 
 /* GitHub */
@@ -131,8 +131,8 @@
 
     .language-btn {
         margin-bottom: 1000%;            /* language button と SNS button の間はスペースを開ける */
-        border:solid 2px #ff8844;
-        color: #ff8844;
+        border:solid 2px #ff9900;
+        color: #ff9900;
         background-color: #ffeedd;
     }
 
