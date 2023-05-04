@@ -9,7 +9,7 @@ const Navigation = () => {
             <a className={`${styles["flow-btn"]} ${styles["mail-btn"]}`} href="mailto:yakuzen555@gmail.com"><i class="fas fa-envelope"></i></a>
         
             {/* GitHub */}
-            <a className={`${styles["flow-btn"]} ${styles["github-btn"]}`} href="https://github.com/Yakuzen/Yakuzen"><i class="fab fa-github"></i></a>
+            <a className={`${styles["flow-btn"]} ${styles["github-btn"]}`} href="https://github.com/sen-bero/sen-bero"><i class="fab fa-github"></i></a>
             
             {/* Twitter */}
             <a className={`${styles["flow-btn"]} ${styles["twitter-btn"]}`} href="https://twitter.com/Yakuzen555"><i class="fab fa-twitter"></i></a>
