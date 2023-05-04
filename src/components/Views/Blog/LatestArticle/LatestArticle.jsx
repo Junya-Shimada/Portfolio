@@ -6,6 +6,7 @@ const LatestArticle = () => {
     <article className={`${styles["latest"]}`}>
       
       <p>まだ記事がありません。</p>
+    
     </article>
   );
 }

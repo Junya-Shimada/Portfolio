@@ -1,11 +1,11 @@
-import { React, useState } from "react";
+import React, { useState } from "react";
 import { Navigation, Header, PageTitle, LatestArticle } from "../../index";
 import styles from "./Blog.module.css";
 
 const Blog = () => { 
 
   const [index, setIndex] = useState(0);
-  const [blogTitle, setBlogTitle] = useState('タイトル');
+  const [blogTitle, setBlogTitle] = useState('Hello World!');
 
   const incrementIndex = () => {
     setIndex( prevState => prevState + 1 );

@@ -32,15 +32,15 @@
 
 
 
-/* Change Language */
-.language-btn {
-    margin-bottom: 250%;            /* language button と SNS button の間はスペースを開ける */
+/* Mail */
+.mail-btn {
+    margin-bottom: 250%;            /* Mail button と SNS button の間はスペースを開ける */
     border:solid 2px #ff9900;
     color: #ff9900;
     background-color: #ffffff;
 }
-/* Languageマウスホバー時 */
-.language-btn:hover{
+/* Hovered on Mail */
+.mail-btn:hover{
     color: #ffffff;
     border:solid 2px #ff9900;
     background:#ff9900;

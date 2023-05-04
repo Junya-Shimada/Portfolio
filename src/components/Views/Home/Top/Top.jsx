@@ -4,7 +4,7 @@ import styles from "./Top.module.css";
 
 const Top = () => {
     return(
-        <div className={`${styles["top"]}`}>
+        <div id="top" className={`${styles["top"]}`}>
 
             <div className={`${styles["table"]}`}>
                 <h2 className={`${styles["section-title"]}`}>【 目次 】</h2>
@@ -19,8 +19,8 @@ const Top = () => {
                 <h2 className={`${styles["section-title"]}`}>【 はじめに 】</h2>
                 <p>
                     ご覧いただきありがとうございます。<br />
-                    エンジニアとしてポートフォリオくらい作ろうかと思いまして。<br />
-                    こちらは、これからも更新を続けていくので楽しみにお待ちください。
+                    ポートフォリオなんて、なんぼあってもいいですからね。<br />
+                    ブログ含め、これから更新を続けていくので楽しみにお待ちください。
                 </p>
             </div>
         </div>
