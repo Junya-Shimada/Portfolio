@@ -26,7 +26,7 @@
     "git": "git add . && git commit && git push origin master",
     "deploy": "npm run build && gh-pages -d build"
   },
-  "homepage": "https://sen-bero.github.io/portfolio/./",
+  "homepage": "https://sen-bero.github.io/portfolio/",
   "eslintConfig": {
     "extends": [
       "react-app",
