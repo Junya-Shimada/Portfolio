@@ -7,10 +7,10 @@ const App = () => {
   return (
     <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/blog" element={<Blog />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/post" element={<Post />} />
+        <Route path={`/`} element={<Home />} />
+        <Route path={`/blog`} element={<Blog />} />
+        <Route path={`/login`} element={<Login />} />
+        <Route path={`/post`} element={<Post />} />
       </Routes>
     </BrowserRouter>
   );
