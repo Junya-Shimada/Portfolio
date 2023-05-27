@@ -9,7 +9,7 @@
 .profile-left{
     width: 50%;
     height: 100vh;
-    margin-left: 5%;
+    margin-left: 10%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -19,7 +19,6 @@
 .profile-right{
     width: 75%;
     height: 100vh;
-    margin-right: 10%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -41,7 +40,13 @@
 .introduce{
     font-size: 16px;
 }
-.introduce span{
+.introduce-title{
+    margin-bottom: 7.5%;
+    color: #000000;
     font-size: 42px;
     font-weight: bold;
+}
+.introduce-json{
+    margin-left: 5%;
+    width: 100%;
 }
