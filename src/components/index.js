@@ -2,18 +2,18 @@
 // エントリポイント
 
 // Views
-export { default as Home } from './Views/Home/Home'
-export { default as Blog } from './Views/Blog/Blog'
-export { default as Login } from './Views/Owner/Login/Login'
-export { default as Post } from './Views/Owner/Post/Post'
+export { default as Home } from './Pages/Home/Home'
+export { default as Blog } from './Pages/Blog/Blog'
+export { default as Login } from './Pages/Owner/Login/Login'
+export { default as Post } from './Pages/Owner/Post/Post'
 
 // Parts
-export { default as Top } from './Views/Home/Top/Top'
-export { default as Profile } from './Views/Home/Profile/Profile'
-export { default as Products } from './Views/Home/Products/Products'
-export { default as LatestArticle } from './Views/Blog/LatestArticle/LatestArticle'
-export { default as InputBlog } from './Views/Owner/Post/InputBlog/InputBlog'
-export { default as LoginForm } from './Views/Owner/Login/LoginForm/LoginForm'
+export { default as Top } from './Pages/Home/Top/Top'
+export { default as Profile } from './Pages/Home/Profile/Profile'
+export { default as Products } from './Pages/Home/Products/Products'
+export { default as LatestArticle } from './Pages/Blog/LatestArticle/LatestArticle'
+export { default as InputBlog } from './Pages/Owner/Post/InputBlog/InputBlog'
+export { default as LoginForm } from './Pages/Owner/Login/LoginForm/LoginForm'
 
 // Common
 export { default as Header } from './Common/Header/Header'
