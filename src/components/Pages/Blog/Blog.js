@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import { Navigation, Header, PageTitle, LatestArticle } from "../../index";
 import styles from "./Blog.module.css";
 
@@ -20,6 +21,7 @@ const Blog = () => {
       <Header />
       <PageTitle title={ '#' + index + ' 「' + blogTitle + '」 '} />
       <LatestArticle  />
+      <Link to="/post" className={styles["post"]}><h3>Post</h3></Link>
       <Navigation />
     </div>
   );
