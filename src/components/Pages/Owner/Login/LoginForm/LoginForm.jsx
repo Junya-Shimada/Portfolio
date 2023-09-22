@@ -27,15 +27,6 @@ const LoginForm = ( props ) => {
                 />
             </div>
             <div className={styles["login-form-item"]}>
-                <label>メールアドレス</label>
-                <input 
-                    type="text" 
-                    name='mail'
-                    placeholder="メールアドレス"
-                    onChange={(e) => props.onChange(e)}
-                />
-            </div>
-            <div className={styles["login-form-item"]}>
                 <label>パスワード</label>
                 <input
                     type="password"
@@ -44,7 +35,6 @@ const LoginForm = ( props ) => {
                     onChange={(e) => props.onChange(e)}
                 />
             </div>
-            <Link to="/post">ログイン</Link>
             <button className={styles["login-form-btn"]}>
                 ログイン
             </button>

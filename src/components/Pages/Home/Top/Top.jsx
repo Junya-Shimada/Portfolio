@@ -11,7 +11,7 @@ const Top = () => {
                 <nav className={`${styles["ads"]}`}>
                     <a className={`${styles["ad"]}`} href="#profile-ja">自己紹介</a>
                     <a className={`${styles["ad"]}`} href="#products-ja">制作物</a>
-                    <Link to='blog' className={`${styles["ad"]}`}>Blog</Link>
+                    <Link to="/blog" className={`${styles["ad"]}`}>保留項目</Link>
                 </nav>
             </div>
             

@@ -19,9 +19,9 @@
     width: 80%;
     margin: 5% auto;
     display: grid;
-    grid-gap: 5%;
+    grid-gap: 20% 5%;
     place-items: center;
-    grid-template-rows: repeat(1, 200px);
+    grid-template-rows: repeat(2, 150px);
     grid-template-columns: repeat(4, 1fr);
 }
 

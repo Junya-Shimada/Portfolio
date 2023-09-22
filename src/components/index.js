@@ -4,6 +4,7 @@
 // Views
 export { default as Home } from './Pages/Home/Home'
 export { default as Blog } from './Pages/Blog/Blog'
+export { default as OX } from './Pages/OX/OX'
 export { default as Login } from './Pages/Owner/Login/Login'
 export { default as Post } from './Pages/Owner/Post/Post'
 
