@@ -14,8 +14,8 @@ const OX = () => {
             <p>（用意された3x3のマスで、先に縦・横・斜めいずれかの方向に3つ自身のマークを並べた方の勝ちです。）</p>
         </div>
         <div className={`${styles["ox-images"]}`}>
-            <img className={`${styles["ox-image"]}`} src="/ox.png" alt="ox sample"/>
-            <img className={`${styles["ox-image"]}`} src="/ox2.png" alt="ox sample2"/>
+            <img className={`${styles["ox-image"]}`} src="https://github.com/sen-bero/portfolio/blob/main/public/ox.png?raw=true" alt="ox"/>
+            <img className={`${styles["ox-image"]}`} src="https://github.com/sen-bero/portfolio/blob/main/public/ox2.png?raw=true" alt="ox2"/>
         </div>
       </div>
       <Navigation />

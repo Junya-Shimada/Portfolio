@@ -46,7 +46,7 @@ const Products = () => {
       link: "https://sen-bero.github.io/cocktail-book/",
     },
     {
-      title: "カラープロポーサル",
+      title: "Color Book",
       description: [
         "カラーコード。",
         "6桁の英数字で1色。",
