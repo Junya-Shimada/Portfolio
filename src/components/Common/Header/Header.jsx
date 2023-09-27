@@ -9,7 +9,7 @@ const Header = () => {
             <Link to="/"><h1>Portfolio</h1></Link>
             <span className={styles["header-nav"]}>
                 <Link to="/" className={styles["header-nav-item"]}><h3>Home</h3></Link>
-                <a className={`${styles["header-nav-item"]}`} href="https://notion-blog-6wfsme4cj-sen-bero.vercel.app/"><h3>Blog</h3></a>
+                <a className={`${styles["header-nav-item"]}`} href="https://notion-blog-g83b42f9a-sen-bero.vercel.app/"><h3>Blog</h3></a>
                 <Link to="/login" className={styles["header-nav-item"]}><h3>Owner</h3></Link>
             </span>
         </nav>
