@@ -34,3 +34,42 @@
     margin: 0 10%;
     height: 45vh;
 }
+
+
+@media (max-width: 600px){
+
+    .ox{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 70vh;
+        background-color: #628199;
+    }
+
+    .title{
+        padding-top: 30vh;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .description{
+        width: 75vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ox-images{
+        margin: 5% 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .ox-image{
+        margin: 5% 0;
+        width: 80%;
+        height: auto;
+    }
+
+}

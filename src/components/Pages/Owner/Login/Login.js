@@ -16,7 +16,7 @@ const Login = () => {
   return (
     <div className={`${styles["login"]}`}>
       <Header />
-      <PageTitle title={ '403号室' } />
+      <PageTitle title={ '403号室' }/>
       <LoginForm onChange={ handleChange } />
       <Navigation />
     </div>

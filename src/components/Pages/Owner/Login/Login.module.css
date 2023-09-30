@@ -5,3 +5,9 @@
     align-items: center;
     background-color: #628199;
 }
+
+@media(max-width:600px){
+    .login-title{
+        padding-top: 35vh;
+    }
+}
