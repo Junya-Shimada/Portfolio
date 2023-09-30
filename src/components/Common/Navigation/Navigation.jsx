@@ -15,7 +15,7 @@ const Navigation = () => {
             <a className={`${styles["flow-btn"]} ${styles["twitter-btn"]}`} href="https://twitter.com/senbero_boy"><i class="fab fa-twitter"></i></a>
             
             {/* Topに戻る */}
-            <a className={`${styles["flow-btn"]} ${styles["top-btn"]}`} href="#title-ja"><i class="fas fa-chevron-up"></i></a>
+            <a className={`${styles["flow-btn"]} ${styles["top-btn"]}`} href="#top"><i class="fas fa-chevron-up"></i></a>
 
         </div>
     );

@@ -77,9 +77,9 @@ const Products = () => {
   ];
 
   return (
-    <div id="products-ja" className={`${styles["products"]}`}>
+    <div id="products" className={`${styles["products"]}`}>
       <h2 className={`${styles["section-title"]}`}>【 制作物 】</h2>
-      <p>
+      <p className={`${styles["description"]}`}>
         <br />これまでに制作したものです。<br />
         ぜひ、こちらも覗いてみてください。<br />
         いずれも制作途中ではありますが、フィードバック等いただけると幸いです。
@@ -115,23 +115,3 @@ const Products = () => {
 };
 
 export default Products;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
