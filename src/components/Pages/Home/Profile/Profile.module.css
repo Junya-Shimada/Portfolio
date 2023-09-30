@@ -92,6 +92,7 @@
     }
     
     .profile-img-description{
+        padding-top: 0; 
         display: none;
     }
 
