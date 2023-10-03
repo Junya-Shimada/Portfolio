@@ -13,7 +13,7 @@ const Products = () => {
           "アウトプットの練習も兼ねて",
           "不定期に投稿する予定です。",
         ],
-        link: "https://notion-blog-g83b42f9a-sen-bero.vercel.app/",
+        link: "https://notion-blog-sooty-iota.vercel.app/",
       },
     {
       title: "あさんぽ日記",
